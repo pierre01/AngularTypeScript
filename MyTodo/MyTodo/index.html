@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title></title>
+    <link rel="stylesheet" href="Content/bootstrap.css" />
+    <link rel="stylesheet" href="Content/app.css" />
+
+    <!-- we got 5 lines of CSS in this tiny example app. So I'm inlining it! -->
+    <style>
+        .done-true {
+            text-decoration: line-through;
+            color: grey;
+        }
+    </style>
+
+
+</head>
+<body >
+
+    angulartest={{1+1}}
+
+    <div ng-controller="navigationController">
+        <todo-navigation></todo-navigation>
+    </div>
+
+
+<div data-ng-view=""></div>
+
+
+</body>
+<script src="/Scripts/jquery-2.1.1.js"></script>
+<script src="/Scripts/angular.js"></script>
+<script src="/Scripts/angular-animate.js"></script>
+<script src="/Scripts/angular-cookies.js"></script>
+<script src="/Scripts/angular-route.js"></script>
+<script src="/Scripts/angular-sanitize.js"></script>
+<script src="/Scripts/angular-resource.js"></script>
+<script src="/Scripts/angular-ui/ui-bootstrap.js"></script>
+<script src="/app/app.js"></script>
+
+
+</html>
